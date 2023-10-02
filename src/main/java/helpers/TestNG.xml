@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automação de testes do site https://dev-finance.netlify.app/ - Kauã Machado Grathwohl">
+  <test thread-count="8" name="WebAutomation">
+    <classes>
+
+      <!-- Cadastra uma transação e valida os valores -->
+      <class name="Cadastro_E_Validacao_Transacao_De_Entrada"/>
+      <class name="Cadastro_E_Validacao_Transacao_De_Saida"/>
+      <class name="Excluir_Transacoes_E_Validar_Totalizadores"/>
+
+    </classes>
+  </test>
+</suite>
