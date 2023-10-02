@@ -10,7 +10,7 @@ public class Functions {
             WebDriverConfig.Instance().driver;
 
 
-    // ----------------------------- Retorna algum valor em específico com Id ----------------------------------------- //
+    // ----------------------------- Retorna algum valor específico ----------------------------------------- //
 
     public WebElement RetornaValor(By identificador) {
 
@@ -25,7 +25,7 @@ public class Functions {
         componente.sendKeys(texto);
     }
 
-    // --------------------------------- Clica em algum componente desejado com Id ----------------------------------------- //
+    // --------------------------------- Clica em algum componente desejado ----------------------------------------- //
 
     public void ClicaComponente(By identificador) {
 
@@ -33,7 +33,7 @@ public class Functions {
         componente.click();
     }
 
-    // -------------------------------- Obtém texto que vem do xpath ----------------------------------- //
+    // -------------------------------- Obtém texto ----------------------------------- //
 
     public String ObtemTexto(By identificador) {
 
